@@ -22,8 +22,20 @@ public class Main {
             System.out.println("INGRESE UN NUMERO");
             int num=sc.nextInt();
             sc.nextLine();
+            System.out.println("CUANTAS FICHAS QUIERE APOSTAR?");
+            int apuesta=sc.nextInt();
+
             double numAzar = Math.round(random()*36);
 
+            if (numAzar == apuesta){
+
+                fichas+= 35;
+            }
+
+            else {
+
+                fichas-=apuesta;
+            }
 
             System.out.println(numAzar);
             System.out.println("DESEA SEGUIR JUGANDO??(SI/NO)");

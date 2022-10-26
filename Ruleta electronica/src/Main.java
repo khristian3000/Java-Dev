@@ -9,41 +9,63 @@ public class Main {
         Scanner sc=new Scanner(System.in);
 
         int fichas=1000;
-        String respuesta;
+        String resp;
 
         System.out.println("************BIENVENIDO A LA RULETA ELECTRONICA*************") ;
-        System.out.println("DESEA JUGAR?? (SI/NO)");
-        respuesta=sc.nextLine();
 
 
-        while (!respuesta.equalsIgnoreCase("NO")){
+        do{
 
 
             System.out.println("INGRESE UN NUMERO");
-            int num=sc.nextInt();
-            sc.nextLine();
-            System.out.println("CUANTAS FICHAS QUIERE APOSTAR?");
-            int apuesta=sc.nextInt();
+            int num = Integer.parseInt(sc.nextLine());
+            while (!(num>0&&num<36)){
+                System.out.println("RANGO DE NUMERO INCORRECTO");
+                System.out.println("INGRESE UN NUMERO");
+                num = Integer.parseInt(sc.nextLine());
 
-            double numAzar = Math.round(random()*36);
+
+            }
+
+            System.out.println("CUANTAS FICHAS QUIERE APOSTAR?");
+
+            int apuesta = Integer.parseInt(sc.nextLine());
+
+
+            int numAzar = (int) (Math.random() * 37);
+
+            System.out.println("SALIO EL " + numAzar);
+
 
             if (numAzar == apuesta){
+                System.out.println("GANASTE!!!");
 
                 fichas+= 35;
+
+                System.out.println("AHORA TENES " + fichas + " FICHAS");
+
+
             }
 
             else {
 
                 fichas-=apuesta;
+                System.out.println("PERDISTE!!!");
+
+
+
+                System.out.println("AHORA TENES " + fichas + " FICHAS");
+
             }
 
-            System.out.println(numAzar);
+
             System.out.println("DESEA SEGUIR JUGANDO??(SI/NO)");
-            respuesta=sc.nextLine();
+            resp=sc.nextLine();
 
 
 
-        }
+
+        }while (!resp.equalsIgnoreCase("NO"));
 
 
     }

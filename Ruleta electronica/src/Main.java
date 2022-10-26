@@ -67,6 +67,6 @@ public class Main {
 
         }while (!resp.equalsIgnoreCase("NO"));
 
-
+        System.out.println("TERMINASTE CON " + fichas + " FICHAS");
     }
 }

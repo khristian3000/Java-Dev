@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/joptionpane.iml" filepath="$PROJECT_DIR$/joptionpane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nota_alumnos.iml" filepath="$PROJECT_DIR$/nota_alumnos.iml" />
     </modules>
   </component>
 </project>

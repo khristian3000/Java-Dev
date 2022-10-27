@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddf96100-fc4c-441c-90eb-55c4a2b15991" name="Changes" comment="" />
+    <list default="true" id="6af5c39e-3800-4546-894f-b540d700c1fb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Gh2leH1JkurtxLT7zAFqjlq8Et" />
+  <component name="ProjectId" id="2Gh6SBk9Q1V4m4wIkhVIqe6YY6r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,11 +28,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ddf96100-fc4c-441c-90eb-55c4a2b15991" name="Changes" comment="" />
-      <created>1666826646849</created>
+      <changelist id="6af5c39e-3800-4546-894f-b540d700c1fb" name="Changes" comment="" />
+      <created>1666828465967</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666826646849</updated>
+      <updated>1666828465967</updated>
     </task>
     <servers />
   </component>
@@ -46,8 +46,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/joptionpane$Main.ic" NAME="Main Coverage Results" MODIFIED="1666826723755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
